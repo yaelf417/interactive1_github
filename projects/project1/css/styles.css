@@ -1,0 +1,117 @@
+
+
+p {
+	font-family: Palatino, serif;
+}
+
+p#p01 {
+	font-family: 'Arapey', serif;
+	font-style: italic;
+}
+
+#background {
+	width: 1000px;
+	height: 3500px;
+	background-color: #f6d5d5;
+}
+
+#container {
+	width: 400px;
+	height: 3325px;
+	margin: auto;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	top: 10px;
+}
+
+#title {
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.captionmain {
+	font-family: 'Arapey', serif;
+	font-size: 10px;
+	text-align: right;
+	width: 300px;
+	float: right;
+	padding-left: 100px;
+}
+
+#richman {
+	float: left;
+	margin-right: 8px;
+}
+
+#byline {
+	width: 400px;
+	float: left;
+	font-family: palatino;
+	font-size: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+}
+
+.intro {
+	font-family: 'Arapey', serif;
+	font-style: italic;
+	font-size: 14px;
+	padding-bottom: 8px;
+}
+
+.question {
+	font-family: 'Oswald', sans-serif;
+	font-style: 700;
+	font-size: 19px;
+	font-weight: bold;
+	padding-top: 14px;
+	line-height: 1.2;
+}
+
+.answer {
+	font-family: Palatino, serif;
+	font-size: 14.5px;
+	padding-top: 6px;
+}
+
+.lillardpics {
+	float: left;
+}
+
+#lillardpics2 {
+	float: center;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-top: 29px;
+}
+
+#lillardpics3 {
+	float: center;
+	padding-left: 25px;	
+}
+
+#captions {
+	font-family: 'Arapey', serif;
+	font-size: 10px;
+	text-align: right;
+	width: 375px;
+	float: right;
+	padding-right: 25px;
+}
+
+blockquote {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 38px;
+	text-align: center;
+}
+
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+}
