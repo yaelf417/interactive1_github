@@ -6,6 +6,19 @@ html {
 	background-size: cover;
 }
 
+#container {
+	width: 2000px;
+	height: 1200px;
+	z-index: 1;
+	img src: ;
+}
+
+#text_container {
+	width: 2000px;
+	height: 1200px;
+	z-index: 2;
+}
+
 #page_title {
 	margin-bottom: 30px;
 	font-family: 'Overlock', cursive;
