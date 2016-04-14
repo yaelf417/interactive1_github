@@ -29,15 +29,19 @@ html {
 	font-size: 11pt;
 }
 
+
+
 /* unvisited link */
 a:link {
     color: blue;
 }
 
 /* visited link */
+/*
 a:visited {
     color: black;
 }
+*/
 
 /* mouse over link */
 a:hover {
