@@ -1,0 +1,159 @@
+body {
+  background: #27c8f9;
+}
+
+/* This is the animation code. */
+@-webkit-keyframes example {
+   from { 
+      transform: scale(2.0);
+   }
+   to { 
+      transform: scale(1.0);
+   }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: infinite;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   font-family: Helvetica;
+   font-size: 30px;
+}
+
+
+
+
+/* This is the animation code. */
+@-webkit-keyframes example2 {
+   from { 
+      transform: scale(1.5);
+   }
+   to { 
+      transform: scale(1.0);
+   }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox2 {
+   -webkit-animation-name: example2;
+   -webkit-animation-duration: .5s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: .5s;             /* 0 is the default */
+   -webkit-animation-iteration-count: infinite;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   color: green;
+   font-family: Helvetica;
+   font-size: 30px;
+}
+
+
+
+/* This is the animation code. */
+@-webkit-keyframes example2 {
+   from { 
+      transform: scale(2);
+   }
+   to { 
+      transform: scale(1.0);
+   }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox3 {
+   -webkit-animation-name: example2;
+   -webkit-animation-duration: .5s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: .5s;             /* 0 is the default */
+   -webkit-animation-iteration-count: infinite;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   color: pink;
+   font-family: Helvetica;
+   font-size: 100px;
+
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox4 {
+   -webkit-animation-name: example2;
+   -webkit-animation-duration: .5s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: .5s;             /* 0 is the default */
+   -webkit-animation-iteration-count: infinite;    /* 1 is the default */
+   -webkit-animation-direction: alternate-reverse;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   color: green;
+   font-family: Helvetica;
+   font-size: 100px;
+}
+
+
+
+@keyframes slide3 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 122px;
+    top: 100px;
+  }
+    50% {
+    left: 244px;
+    top: 0px;
+  }
+  75%{
+    left: 366px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+
+
+.background3 {
+  border-radius: 30px;
+  height: 300px;
+  position: relative;
+  min-width: 538px;
+  width: 600px;
+}
+
+.background3:hover .dot3 {
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot3 {
+  color: purple;
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  width: 500px;
+  font-family: Helvetica;
+  font-size: 50px;
+}

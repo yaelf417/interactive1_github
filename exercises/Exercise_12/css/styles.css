@@ -1,0 +1,50 @@
+.box1 {
+	background: green;
+	color: yellow;
+	font-size: 30px;
+	width: 200px;
+	height: 100px;
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 360px;
+	padding: 30px;
+}
+
+.box2 {
+	background: red;
+	color: black;
+	font-size: 100px;
+	width: 1000px;
+	height: 100px;
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 40px;
+	padding: 30px;
+}
+
+.box3 {
+	background: pink;
+	color: purple;
+	font-size: 30px;
+	width: 200px;
+	height: 100px;
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 180px;
+	padding: 30px;
+}
+
+.box4 {
+	background: blue;
+	color: white;
+	font-size: 30px;
+	width: 200px;
+	height: 100px;
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 60px;
+	padding: 30px;
+}

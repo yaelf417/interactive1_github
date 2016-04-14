@@ -1,0 +1,45 @@
+body {
+	background: #000000;
+}
+
+#container {
+	width: 1200px;
+	height: 4000px;
+	margin: auto;
+}
+
+@font-face {
+	font-family: 'Sofia';
+	src: url("Sofia.otf");
+}
+
+@font-face {
+	font-family: 'Dancing';
+	src: url("Dancing.otf");
+}
+
+@font-face {
+	font-family: 'Action_Man_Bold';
+	src: url("Action_Man_Bold.ttf");
+}
+
+#main {
+	font-family: Sofia;
+	font-size: 300px;
+	color: #FF3E96;
+	text-align: center;
+}
+
+#main2 {
+	font-family: Dancing;
+	font-size: 300px;
+	color: #FF3E96;
+	text-align: center;
+}
+
+#main3 {
+	font-family: Action_Man_Bold;
+	font-size: 300px;
+	color: #FF3E96;
+	text-align: center;
+}
