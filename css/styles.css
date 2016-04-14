@@ -60,14 +60,14 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: green;
+    color: #346921;
     font-size: 15;
     font-weight: 700;
 }
 
 /* selected link */
 a:active {
-    color: yellow;
+    color: #D6CF00;
 }
 
 
