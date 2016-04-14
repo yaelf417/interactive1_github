@@ -1,0 +1,41 @@
+body {
+	background-color: #e5fffa;
+	font-family: Georgia, serif;
+	color: #4c0099;
+
+}
+
+p {
+	text-align: left;
+	font-family: 'Delius', cursive;
+}
+
+h1 {
+	font-family: Book Antiqua;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h4 {
+	text-align: center;
+	font-style: italic;
+	font-size: 12px;
+	font-family: Veranda, sans-serif;
+	color: #bf80ff;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 24px;
+}
+
+h5 {
+	font-family: 'Amatic SC', cursive;
+	font-style: 700;
+	font-size: 25px;
+}
+
+ul {
+	font-family: Palatino, serif;
+	font-style: italic;
+}

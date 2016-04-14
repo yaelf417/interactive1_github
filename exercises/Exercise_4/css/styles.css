@@ -1,0 +1,26 @@
+body {
+	background: #466368;
+	background: linear-gradient(to right, #648880 25%, #293f50 40%, #f9aafa);
+
+}
+
+/*
+body{
+	background: #99ddff;
+	background: radial-gradient(#99ddff, #ccff99);
+	width: 650px;
+	height: 650px;
+
+}
+
+/*
+body {
+	background: #99ddff;
+	background: linear-gradient(45deg, #99ddff, #ccff99);
+	background: -webkit-linear-gradient(45deg, #99ddff, #ccff99);
+	background: -moz-linear-gradient(45deg, #99ddff, #ccff99);
+	width: 650px;
+	height: 650px;
+}
+*/
+
