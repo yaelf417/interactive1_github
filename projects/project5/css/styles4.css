@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+	width: 1200px;
+	height: 800px;
+}
+
+#container {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	background-color: #ffcc00;
+}
+
+
+#next {
+	width: 200px;
+	height: 123.6px;
+	float: right;
+}
+
+#video {
+	volume: 20;
+}
+
+#text {
+	font-family: 'Sniglet', cursive; 
+	font-style: 800;
+	font-size: 40pt;
+	text-align: center;
+}
