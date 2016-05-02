@@ -8,6 +8,12 @@
         <meta name="viewport" content="width=device-width">
        
 
+        <link href='https://fonts.googleapis.com/css?family=Sniglet:400,800|Titan+One' rel='stylesheet' type='text/css'>
+
+
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/script1_woohoo.js"></script>
+        <script src="js/script1_doh.js"></script>
         <link rel="stylesheet" href="css/styles1.css">
 
     </head>
@@ -17,6 +23,7 @@
         <div id="container">
 
             <img src="gifs/text_food_unattended.gif">
+
             <video src= "videos/pie.mov"
                 width: "640" height= "480"
                 poster= "images/pie.jpg"
@@ -25,13 +32,23 @@
 
           
 
-            <div id="next">
+            <div class="next">
                 <a href="page2.html"> 
-                <img src="images/homer.png" 
-                onmouseover="this.src='images/homer_doh.png'"
-                onmouseout="this.src='images/homer.png'"
-                onclick="<audio src="sounds/doh.mp3"></audio>"
+                <img src="images/homer_next.png" 
+                onmouseover="this.src='images/homer_woo.png'" class="doh"
+                onmouseout="this.src='images/homer_next.png'"
                 </a>
+                <p><space>Next</p>
+            </div>
+
+
+            <div class="previous">
+                <a href="page0.html"> 
+                <img src="images/homer.png" 
+                onmouseover="this.src='images/homer_doh.png'" class="doh"
+                onmouseout="this.src='images/homer.png'"
+                </a>
+                <p><space>Previous</p>
             </div>
 
 
