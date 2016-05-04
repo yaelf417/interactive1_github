@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: #ffcc00;
 	width: 1200px;
 	height: 800px;
 }
@@ -10,6 +10,28 @@ body {
 	margin: auto;
 	background-color: #ffcc00;
 	padding: 50px;
+}
+
+.navigation {
+  z-index: 3;
+  width: 400px;
+  height: 120px;
+  left: 700px;
+  top: ;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+
+.home {
+  width: 91px;
+  height: 118px;
+  float: right;
+  float: bottom;
+  text-align: right;
+  font-family: 'Sniglet', cursive; 
+  font-style: 400;
+  font-size: 15pt;
+  z-index: 3;
 }
 
 .next {
@@ -138,4 +160,31 @@ body {
   100% {
     -ms-transform:  translate(-27px,1px)  rotate(53deg) ;
   }
+}
+
+
+
+
+
+
+  /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: black;
 }

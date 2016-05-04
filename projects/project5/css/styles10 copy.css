@@ -1,0 +1,158 @@
+body {
+	background-color: white;
+	width: 1200px;
+	height: 800px;
+}
+
+#container {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	background-color: #ffcc00;
+	padding: 50px;
+}
+
+.next {
+	width: 151px;
+	height: 118px;
+	float: right;
+	float: bottom;
+	text-align: center;
+	font-family: 'Sniglet', cursive; 
+	font-style: 400;
+	font-size: 15pt;
+	z-index: 3;
+}
+
+.previous {
+	width: 151px;
+	height: 118px;
+	float: right;
+	float: bottom;
+	text-align: center;
+	font-family: 'Sniglet', cursive; 
+	font-style: 400;
+	font-size: 15pt;
+	z-index: 3;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+
+#video {
+	z-index: 1;
+}
+
+#sentence {
+	width: 1100px;
+	height: 100px;
+	z-index: 2;
+}
+
+#letters {
+	width: 146px;
+	height: 60px;
+	z-index: 2;
+}
+
+
+.imgh {
+	width: 300px;
+	height: 137;
+	padding-bottom: 133px;
+}
+
+.t {
+	z-index: 5;
+	position: absolute;
+	left: 910px;
+	top: 473px;
+	animation-name: slideOutUp;
+}
+
+.o {
+	z-index: 5;
+	position: absolute;
+	left: 947px;
+	top: 473px;
+}
+
+.y {
+	z-index: 5;
+	position: absolute;
+	left: 986px;
+	top: 473px;
+}
+
+.s {
+	z-index: 5;
+	position: absolute;
+	left: 1016px;
+	top: 473px;
+}
+.t.slideOutUp {
+	-webkit-animation-name: slideOutUp;
+	animation-name: slideOutUp;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+}
+
+
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-delay: 2s;
+
+
+

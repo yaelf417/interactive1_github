@@ -12,38 +12,21 @@ body {
 	padding: 30px;
 }
 
-.navigation {
-	z-index: 3;
-	width: 400px;
-	height: 120px;
-	left: 700px;
-	top: ;
-	padding-left: 300px;
-	padding-top: 30px;
-}
-
-.home {
-	width: 91px;
-	height: 118px;
-	float: right;
-	float: bottom;
-	text-align: right;
-	font-family: 'Sniglet', cursive; 
-	font-style: 400;
-	font-size: 15pt;
-	z-index: 3;
+#background {
+	z-index: 2;
 }
 
 .next {
 	width: 151px;
 	height: 118px;
-	float: right;
-	float: bottom;
+	position: absolute;
+	left: 1060px;
+	top: 510px;
 	text-align: center;
 	font-family: 'Sniglet', cursive; 
 	font-style: 400;
 	font-size: 15pt;
-	z-index: 3;
+	z-index: 5;
 }
 
 .previous {
@@ -58,26 +41,11 @@ body {
 	z-index: 3;
 }
 
-#video {
-	volume: 20;
-}
-
-#text {
-	width: 1000px;
-	font-family: 'Sniglet', cursive; 
-	font-style: 800;
-	font-size: 40pt;
-}
-
 .imgh {
 	width: 300px;
 	height: 137;
 	padding-bottom: 133px;
 }
-
-
-
-
 
 
 

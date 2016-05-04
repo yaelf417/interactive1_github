@@ -12,6 +12,7 @@
         <script src="js/jquery-2.2.3.min.js"></script>
         <script src="js/script2_woohoo.js"></script>
         <script src="js/script2_doh.js"></script>
+        <script src="js/script1_squeal.js"></script>
         <link rel="stylesheet" href="css/styles2.css">
 
 
@@ -21,7 +22,9 @@
 
         <div id="container">
 
-            <img src="gifs/evil_squirrel.gif">
+            <div id="squirrel">
+                <img src="gifs/evil_squirrel.gif"
+            </div>
 
 
             <video src= "videos/killing_the_elephant.mov"
@@ -33,23 +36,34 @@
             <div id="text">When your dog sees a squirrel</div>
 
 
-            <div class="next">
-                <a href="page3.html"> 
-                <img src="images/homer_next.png" 
-                onmouseover="this.src='images/homer_woo.png'" class="doh"
-                onmouseout="this.src='images/homer_next.png'"
-                </a>
-                <p><space>Next</p>
-            </div>
+            <div class= "navigation"> 
+                <div class="home">
+                    <a href="page0.html"> 
+                    <img src="gifs/home.gif"
+                    onmouseover="this.src='images/home_eyes.png'"
+                    onmouseout="this.src='gifs/home.gif'"
+                    </a>
+                    <p><space>Home</p>
+                </div>
+
+                <div class="next">
+                    <a href="page3.html"> 
+                    <img src="images/homer_next.png" 
+                    onmouseover="this.src='images/homer_woo.png'" class="doh"
+                    onmouseout="this.src='images/homer_next.png'"
+                    </a>
+                    <p><space>Next</p>
+                </div>
 
 
-            <div class="previous">
-                <a href="page1.html"> 
-                <img src="images/homer.png" 
-                onmouseover="this.src='images/homer_doh.png'" class="doh"
-                onmouseout="this.src='images/homer.png'"
-                </a>
-                <p><space>Previous</p>
+                <div class="previous">
+                    <a href="page1.html"> 
+                    <img src="images/homer.png" 
+                    onmouseover="this.src='images/homer_doh.png'" class="doh"
+                    onmouseout="this.src='images/homer.png'"
+                    </a>
+                    <p><space>Previous</p>
+                </div>
             </div>
 
 
